@@ -1,58 +1,174 @@
-It seems there's no previous conversation history available. Let's proceed with the details you've provided.
+# Face Recognition Attandance System
 
----
+### Recognize The faces And Take Automatic Attandance. :sparkles:
 
-### Clever Attendance Monitoring System (CAMS)
+![Face Recognition Logo](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/Face-Recognition-Attendance-System-Logo.jpg)
 
-**Project Description:**
 
-The Clever Attendance Monitoring System (CAMS) is an innovative solution designed to streamline and automate the process of tracking attendance in educational institutions, workplaces, and events. Leveraging advanced technologies, CAMS aims to enhance accuracy, efficiency, and ease of use in attendance management.
+![GitHub](https://img.shields.io/github/license/kmhmubin/Face-Recognition-Attendance-System)
 
-**Key Features:**
+## Motivation :astonished:
+----------------------------
+We seek to provide a valuable attendance service for both teachers and students. Reduce manual process errors by provide automated and a reliable attendance system uses face recognition technology.
 
-1. **Automated Attendance Tracking:**
-   - Utilizes biometric systems (fingerprint, facial recognition) or RFID/NFC technology to automatically record attendance.
-   - Reduces manual errors and prevents fraudulent attendance logging.
+## Features :clipboard:
+---------------------------
+* Check Camera
+* Capture Faces
+* Train Faces
+* Recognize Faces & Attendance
+* Automatic Email
 
-2. **Real-Time Data Processing:**
-   - Provides instant updates on attendance status.
-   - Offers real-time notifications to administrators and users for any anomalies or specific conditions.
+## Screenshots :camera:
+-----------------------------------
+### Command Line Interface
 
-3. **Comprehensive Reporting:**
-   - Generates detailed attendance reports and analytics.
-   - Offers insights into attendance patterns and trends to help in decision-making.
+![Command Line Interdace](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/CODE%20INTERFACE.png)
 
-4. **User-Friendly Interface:**
-   - Intuitive dashboards for administrators, teachers, or managers to monitor attendance.
-   - Easy-to-use mobile and web applications for users to check their attendance records.
+### Checking Camera
 
-5. **Integration Capabilities:**
-   - Seamlessly integrates with existing systems like HR software, learning management systems (LMS), and school management systems (SMS).
-   - Ensures smooth data exchange and consistency across platforms.
+![Checking Camera](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/Program%20working.jpg)
 
-6. **Security and Privacy:**
-   - Ensures data security through encryption and secure access controls.
-   - Complies with relevant data protection regulations to safeguard user information.
+### Automail 
 
-**Technologies Used:**
+![Automail](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/automail.jpg)
 
-- **Biometric Recognition:** Facial recognition, fingerprint scanning for accurate identification.
-- **RFID/NFC:** For quick and contactless attendance logging.
-- **Cloud Computing:** To store and process attendance data securely.
-- **Data Analytics:** For generating insightful reports and analytics.
-- **Mobile and Web Development:** To create accessible and responsive applications for all users.
 
-**Target Audience:**
+## Tech Used :computer:
+--------------------------
+Build With - 
+* Python 3.7
 
-- **Educational Institutions:** Schools, colleges, and universities looking to modernize their attendance tracking systems.
-- **Corporations:** Businesses seeking to improve employee attendance management.
-- **Event Organizers:** Facilitating efficient attendee management during events, conferences, and seminars.
+Module Used -
 
-**Project Goals:**
+All The Module are Latest Version.
+* [OpenCV](https://docs.opencv.org/3.4/index.html) (Contrib 4.0.1)
+* [Pillow](https://pypi.org/project/Pillow/)
+* [Numpy](https://numpy.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Shutil](https://docs.python.org/3/library/shutil.html)
+* [CSV](https://docs.python.org/3/library/csv.html)
+* [yagmail](https://pypi.org/project/yagmail/)
 
-- **Improve Efficiency:** Minimize the time and effort required for attendance tracking.
-- **Enhance Accuracy:** Eliminate errors associated with manual attendance processes.
-- **Increase Engagement:** Provide users with easy access to their attendance records and notifications.
-- **Data-Driven Decisions:** Enable organizations to make informed decisions based on comprehensive attendance data.
 
-CAMS is designed to be a versatile and reliable solution, adaptable to various settings and capable of meeting the evolving needs of modern attendance management.
+Face Recognition Algorithms -
+* [Haar Cascade](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
+* [LBPH (Local Binary Pattern Histogram)](https://docs.opencv.org/3.4/da/d60/tutorial_face_main.html)
+
+Software Used -
+* [Pycharm 2019.2](https://www.jetbrains.com/pycharm/download/?section=windows)
+* [VS CODE](https://code.visualstudio.com/download)
+* [Git](https://git-scm.com/downloads)
+
+## Installation :key:
+-----------------------------------
+
+#### Download or Clone the project
+
+First Download or Clone the Project on Your Local Machine.To download the project from github press **Download Zip**
+
+![Download Zip](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/download%20zip.png)
+
+or 
+
+You can clone the project with git bash.To clone the project using git bash first open the git bash and write the following code
+```
+git clone https://github.com/kmhmubin/Face-Recognition-Attendance-System.git
+```
+demo 
+
+![Git clone](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/git%20clone_edit_0.gif)
+
+After download, Open the project using **Pycharm or VSCODE**. Then we have to create an python enviroment to run the program.
+
+#### create enviroment 
+First open the terminal or command line in the IDE.Then write the following code.
+```
+python -m venv env
+```
+Then activate the enviroment using the code below for windows.
+```
+.\env\Scripts\activate
+```
+[ *Notice:*
+If your pc don't have virtual enviroment or pip install the follow this link.
+[How to create Virtual Enviroment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) ]
+
+#### Installing the packages
+--------------------------------------------------
+
+After creating the enviroment on your project let's install the necessary packages. 
+
+![pip isntall demo](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/pip%20install_edit_0.gif)
+
+To install those package open the terminal or command line and paste the code from below
+
+```
+pip install opencv-contrib-python
+```
+```
+pip install numpy
+```
+```
+pip install pandas
+```
+```
+pip install Pillow
+```
+```
+pip install pytest-shutil
+```
+```
+pip install python-csv
+```
+```
+pip install yagmail
+```
+
+[ **Notice: During the package installization, sometime it shows some error, to avoid those error you can install those packages as admin. ]
+
+## Test Run :bicyclist:
+-----------------------
+After creating the enviroment and installing the packages, open the IDE terminal/command line to run the program. Using the code below.
+
+```
+py main.py
+```
+Here is a demo to run the program. I'm Using the Pycharm IDE in my demo.
+
+![Test Run](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Document%20Metarial/Project%20demo%20images/code%20demo_edit_0.gif)
+
+## How To Use? :pencil:
+----------------------
+If you want to use it just follow the steps below.
+
+1. First download or clone the project
+2. Import the project to your favourit IDE
+3. Create an python enviroment
+4. Install all the packages 
+5. Change the mail information
+6. Run the project using the command line or your IDE Run Button
+
+## Known Bugs :bug:
+------------------------------
+This project have some bugs.
+
+* <strike>Student Details: In student details folder the **StudentDetails.csv** file don't have ID & name column.This problem show when the program run first time and create the <stong>StudentDetails.csv</strong> file automatically. To soleve the problelm just open the file and add *ID & Name Column* in the file and save it.</strike>
+* Auto Attachment: This is not a problem actually. The problem is before sent auto mail we have to manually change the file name. I tried to automate the attachment but i faild.
+
+## Contribute :heart:
+--------------------------------------
+If you want to contribute in this project feel free to do that. A [contribution guideline](https://github.com/kmhmubin/Face-Recognition-Attendance-System/blob/master/Contributing%20Guidelines.md) will be a big help.
+
+Thanks you, for contributing.
+- [Adeetya Upadhyay](https://github.com/AdeetyaU)
+- [Ciro Iriarte](https://github.com/ciroiriarte)
+- [Shreyas More](https://github.com/staticshreyas)
+
+## Credits :sparkling_heart:
+--------------------------------
+Thanks to [Farhat Tasnim](https://github.com/farhattasnim) work with me.
+
+## Licence :scroll:
+---------------------------------
+MIT © [K.M.H. Mubin](https://github.com/kmhmubin)
